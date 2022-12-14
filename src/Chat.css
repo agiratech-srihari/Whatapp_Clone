@@ -46,6 +46,7 @@
     border-radius: 10px;
     width: fit-content;
     background-color: #ffffff;
+    margin-bottom: 30px;
 }
 .chat__reciever{
     margin-left: auto;
@@ -82,4 +83,17 @@
     flex: 1;
     border-radius: 30px;
     padding: 10px;
+    border: none;
+}
+.chat__footer > form > input :focus{
+    border: none;
+
+}
+.chat__footer > form > button {
+    display: none;
+}
+
+.chat__footer > .MuiSvgIcon-root {
+    color: gray;
+    margin: 10px;
 }
